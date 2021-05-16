@@ -1,5 +1,6 @@
 pub use mwe_macros::dummy;
 
+#[allow(clippy::eq_op)]
 
 #[test]
 fn test1() {
